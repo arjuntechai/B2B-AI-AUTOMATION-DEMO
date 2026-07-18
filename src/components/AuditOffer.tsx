@@ -1,5 +1,6 @@
 import { Check } from 'lucide-react';
 import Reveal from './Reveal';
+import { UnderlinedEyebrow } from './FitAssessment';
 
 const bullets = [
   'No tools or platforms pushed on you',
@@ -13,8 +14,8 @@ export default function AuditOffer() {
       <div className="mx-auto max-w-3xl">
         <Reveal>
           <div className="rounded-2xl border border-line bg-ink-700/60 p-10 sm:p-14 text-center">
-            <p className="mb-4 text-xs uppercase tracking-widest text-accent/80">Free Automation Audit</p>
-            <h2 className="text-heading text-2xl sm:text-3xl font-semibold tracking-tightish leading-snug">
+            <UnderlinedEyebrow text="Free Automation Audit" />
+            <h2 className="mt-2 text-heading text-2xl sm:text-3xl font-semibold tracking-tightish leading-snug">
               See where your operations are losing time — before you commit to anything.
             </h2>
 

@@ -13,7 +13,7 @@ export default function Footer() {
         </p>
         <a
           href="mailto:hello@meridiansystems.io"
-          className="text-muted text-xs sm:text-sm transition-colors duration-200 hover:text-body"
+          className="underline-grow text-muted text-xs sm:text-sm transition-colors duration-200 hover:text-body"
         >
           hello@meridiansystems.io
         </a>

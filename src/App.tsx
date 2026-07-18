@@ -9,12 +9,15 @@ import AuditForm from './components/AuditForm';
 import WhatHappensNext from './components/WhatHappensNext';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
+import { FilmGrain, DotGrid } from './components/Background';
 
 function App() {
   return (
-    <div className="min-h-screen bg-ink-900 text-body antialiased">
+    <div className="min-h-screen bg-ink-900 text-body antialiased relative overflow-x-hidden">
+      <FilmGrain />
+      <DotGrid />
       <Nav />
-      <main>
+      <main className="relative z-10">
         <Hero />
         <FitAssessment />
         <AutomationExamples />
