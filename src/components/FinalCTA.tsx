@@ -28,11 +28,10 @@ export default function FinalCTA() {
       <div className="relative mx-auto max-w-3xl text-center z-10">
         <Reveal>
           <h2 className="text-heading text-3xl sm:text-4xl font-semibold tracking-tightish leading-snug">
-            Ready to see what's actually possible?
+            Ready to map a more efficient workflow?
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-body text-lg leading-relaxed">
-            The audit takes less than 30 minutes of your time and gives you a clear picture of where
-            automation fits — or doesn't.
+            The assessment takes less than 30 minutes of your time and gives you a clear, actionable blueprint of where automation fits — or doesn't.
           </p>
           <div className="mt-10">
             <Magnetic>
@@ -40,9 +39,12 @@ export default function FinalCTA() {
                 onClick={scrollToForm}
                 className="rounded-lg bg-accent px-8 py-4 text-[15px] font-medium text-white transition-colors duration-200 hover:bg-accent-soft"
               >
-                Request an Automation Audit
+                Request a Custom Workflow Blueprint
               </button>
             </Magnetic>
+            <p className="mt-3 text-xs text-muted">
+              Free blueprint. You decide what, if anything, to do next.
+            </p>
           </div>
         </Reveal>
       </div>

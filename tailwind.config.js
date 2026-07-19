@@ -23,6 +23,7 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        display: ['Outfit', 'system-ui', '-apple-system', 'sans-serif'],
       },
       letterSpacing: {
         tightish: '-0.02em',

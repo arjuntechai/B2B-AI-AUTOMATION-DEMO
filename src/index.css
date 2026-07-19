@@ -6,6 +6,11 @@ html {
   scroll-behavior: smooth;
 }
 
+h1, h2, h3, h4, h5, h6, .text-heading {
+  font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.03em;
+}
+
 body {
   background-color: #0A0A0A;
   color: #A0A0A0;
@@ -76,6 +81,10 @@ body {
 .spotlight-card {
   position: relative;
   transition: transform 0.2s ease, border-color 0.2s ease;
+  background: rgba(20, 20, 20, 0.65) !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
 }
 .spotlight-card::before {
   content: '';

@@ -62,7 +62,7 @@ export default function Hero() {
             transition={{ duration: 0.5, ease }}
             className="text-xs uppercase tracking-widest text-accent/80 pb-2"
           >
-            Automation Systems · Designed Deliberately
+            OPERATIONS INFRASTRUCTURE
           </motion.p>
           <motion.div
             initial={{ scaleX: 0 }}
@@ -97,7 +97,7 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.16, ease }}
               className="block bg-gradient-to-r from-heading via-[#C0C0C0] to-accent bg-clip-text text-transparent"
             >
-              more manual than they need to be.
+              losing valuable time.
             </motion.span>
           </span>
         </motion.h1>
@@ -108,9 +108,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.32, ease }}
           className="mx-auto mt-8 max-w-2xl text-lg sm:text-[22px] leading-relaxed text-body"
         >
-          We map how your business actually runs, find where time and effort are
-          being lost, and design automation systems that fit the way your team
-          works — not the other way around.
+          Stop wasting hours on manual processes and disconnected systems. We map how your business actually runs, find where time is being lost, and build custom automation systems that run in the background.
         </motion.p>
 
         <motion.p
@@ -119,7 +117,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.42, ease }}
           className="mx-auto mt-5 max-w-xl text-[15px] leading-relaxed text-muted"
         >
-          AI isn't a product you install. It's a system you build deliberately.
+          No off-the-shelf software to learn. Built specifically to fit your team.
         </motion.p>
 
         <motion.div
@@ -133,9 +131,12 @@ export default function Hero() {
               onClick={scrollToForm}
               className="rounded-lg bg-accent px-8 py-4 text-[15px] font-medium text-white transition-colors duration-200 hover:bg-accent-soft"
             >
-              Request an Automation Audit
+              Request a Custom Workflow Blueprint
             </button>
           </Magnetic>
+          <p className="mt-3 text-xs text-muted">
+            30-minute intro call. Zero sales pitch, guaranteed.
+          </p>
         </motion.div>
 
         <motion.div
